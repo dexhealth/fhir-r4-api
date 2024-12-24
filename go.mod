@@ -3,7 +3,7 @@ module github.com/dexhealth/fhir-r4-api
 go 1.23.2
 
 require (
-	github.com/dexhealth/fhir v0.0.0-20241220175621-c2cae0e7bb7c
+	github.com/dexhealth/fhir v0.0.0-20241221200152-a2fccf9a969b
 	github.com/labstack/echo/v4 v4.12.0
 	go.uber.org/zap v1.27.0
 )

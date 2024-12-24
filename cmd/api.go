@@ -20,7 +20,6 @@ const (
 )
 
 func main() {
-	println("hello")
 
 	lookupTable, _ := lookup.NewSearchTable(SEARCH_PARAM_FILE)
 	metaCtrl := meta.NewController(lookupTable)
