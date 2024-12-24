@@ -1,0 +1,63 @@
+{
+    "identifier": [
+        {
+            "system": "OHIP",
+            "value": "123456789"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "family": "Beckham",
+            "given": [
+                "David",
+                "Robert",
+                "Joseph"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "13058880000",
+            "use": "mobile",
+            "rank": 1
+        },
+        {
+            "system": "phone",
+            "value": "14169001222",
+            "use": "home",
+            "rank": 2
+        },
+        {
+            "system": "email",
+            "value": "dbeckham@intermiamicf.com",
+            "use": "work"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1974-12-25",
+    "address": [
+        {
+            "use": "home",
+            "type": "both",
+            "line": [
+                "130 Palm Ave"
+            ],
+            "city": "Miami Beach",
+            "state": "Florida",
+            "postalCode": "33139",
+            "country": "USA"
+        }
+    ],
+    "generalPractitioner": [
+        {
+            "type": "Practitioner",
+            "identifier": {
+                "system": "CPSO",
+                "value": "789"
+            }
+        }
+    ],
+    "resourceType": "Patient"
+}

@@ -1,0 +1,52 @@
+{
+    "identifier": [
+        {
+            "system": "OHIP",
+            "value": "900900900"
+        }
+    ],
+    "active": false,
+    "name": [
+        {
+            "family": "Beck",
+            "given": [
+                "Andreas"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+49071199331893",
+            "use": "mobile",
+            "rank": 1
+        },
+        {
+            "system": "phone",
+            "value": "+49071199938420",
+            "use": "home",
+            "rank": 2
+        },
+        {
+            "system": "email",
+            "value": "andy-beck@@vfb.de",
+            "use": "work"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1987-03-13",
+    "address": [
+        {
+            "use": "home",
+            "type": "both",
+            "line": [
+                "Olgastrasse 118"
+            ],
+            "city": "Stuttgart",
+            "state": " Baden-Wurttemberg",
+            "postalCode": "70180",
+            "country": "DEU"
+        }
+    ],
+    "resourceType": "Patient"
+}

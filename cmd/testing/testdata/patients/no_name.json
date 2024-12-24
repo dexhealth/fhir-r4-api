@@ -1,0 +1,42 @@
+{
+    "identifier": [
+        {
+            "system": "OHIP",
+            "value": "11223344"
+        }
+    ],
+    "active": false,
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "553532342179",
+            "use": "home",
+            "rank": 1
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1940-10-29",
+    "address": [
+        {
+            "use": "home",
+            "type": "both",
+            "line": [
+                "44 Vila Gesse"
+            ],
+            "city": "Três Corações",
+            "state": "Minas Gerais",
+            "postalCode": "337410-019",
+            "country": "BRA"
+        }
+    ],
+    "generalPractitioner": [
+        {
+            "type": "Practitioner",
+            "identifier": {
+                "system": "CPSO",
+                "value": "345"
+            }
+        }
+    ],
+    "resourceType": "Patient"
+}

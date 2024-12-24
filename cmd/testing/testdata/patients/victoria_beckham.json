@@ -1,0 +1,77 @@
+{
+    "identifier": [
+        {
+            "system": "http://ehealthontario.ca/API/FHIR/NamingSystem/ca-on-patient-hcn",
+            "value": "98765432",
+            "type": {
+                "coding": [{
+                    "system": "http://hl7.org/fhir/v2/0203",
+                    "code": "JHN"
+                }
+                ]
+            },
+            "extension": [
+                {
+                    "url": "http://ehealthontario.ca/API/fhir/StructureDefinition/ext-hcn-version-code",
+                    "valueString": "AB"
+                }
+            ]
+        },
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/v2/0203",
+                        "code": "MR"
+                    }
+                ],
+                "text": "UHN MRN"
+            },
+            "system": "http://infoway-inforoute.ca/fhir/NamingSystem/ca-on-uhn-mrn",
+            "value": "1244566"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "family": "Beckham",
+            "given": [
+                "Victoria",
+                "Caroline"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "14169001222",
+            "use": "home",
+            "rank": 1
+        }
+    ],
+    "gender": "female",
+    "birthDate": "1974-04-17",
+    "address": [
+        {
+            "use": "home",
+            "type": "both",
+            "line": [
+                "130 Palm Ave"
+            ],
+            "city": "Miami Beach",
+            "state": "Florida",
+            "postalCode": "33139",
+            "country": "USA"
+        }
+    ],
+    "generalPractitioner": [
+        {
+            "type": "Practitioner",
+            "identifier": {
+                "code": "CPSO",
+                "value": "789"
+            }
+        }
+    ],
+    "resourceType": "Patient"
+}

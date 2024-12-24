@@ -1,0 +1,37 @@
+{
+    "active": true,
+    "name": [
+      {
+        "family": "Apples",
+        "given": [
+          "Frank"
+        ],
+        "prefix": [
+          "Dr."
+        ],
+        "suffix": [
+          "MD"
+        ],
+        "period": {
+          "start": "1993-12-21"
+        }
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "1-647-789-2345",
+        "use": "mobile",
+        "rank": 2
+      },
+      {
+        "system": "email",
+        "value": "apples@microsoft.com",
+        "use": "home",
+        "rank": 1
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1982-10-02",
+    "resourceType": "Practitioner"
+  }

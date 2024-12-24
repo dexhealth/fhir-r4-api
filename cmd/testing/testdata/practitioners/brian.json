@@ -1,0 +1,38 @@
+{
+    "active": false,
+    "name": [
+      {
+        "family": "Smith",
+        "given": [
+          "Brian"
+        ],
+        "prefix": [
+          "Dr."
+        ],
+        "suffix": [
+          "MD",
+          "FACS"
+        ],
+        "period": {
+          "start": "2012-01-01"
+        }
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "1-416-789-2345",
+        "use": "mobile",
+        "rank": 2
+      },
+      {
+        "system": "email",
+        "value": "drbriansmith@gmail.com",
+        "use": "home",
+        "rank": 1
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1942-10-10",
+    "resourceType": "Practitioner"
+  }

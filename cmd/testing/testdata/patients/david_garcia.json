@@ -1,0 +1,52 @@
+{
+    "identifier": [
+        {
+            "system": "OHIP",
+            "value": "837649456"
+        }
+    ],
+    "active": false,
+    "name": [
+        {
+            "family": "Garcia",
+            "given": [
+                "David"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+34971200511",
+            "use": "mobile",
+            "rank": 1
+        },
+        {
+            "system": "phone",
+            "value": "+34971200500",
+            "use": "home",
+            "rank": 2
+        },
+        {
+            "system": "email",
+            "value": "dgarcia@fiu.edu",
+            "use": "work"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1991-11-07",
+    "address": [
+        {
+            "use": "home",
+            "type": "both",
+            "line": [
+                "6 Carrer del Bisbe Pere de Puigdorfila"
+            ],
+            "city": "Palma de Mallorca",
+            "state": "Balearic Islands",
+            "postalCode": "07010",
+            "country": "ESP"
+        }
+    ],
+    "resourceType": "Patient"
+}

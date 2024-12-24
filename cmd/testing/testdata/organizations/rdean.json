@@ -1,0 +1,44 @@
+{
+  "name" : "Robert International",
+  "alias" : ["R DEAN"],
+  "contact" : [{
+    "extension" : [{
+      "url" : "http://gnu.org",
+      "valueAvailability" : {
+        "availableTime" : [{
+          "daysOfWeek" : ["mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"],
+          "availableStartTime" : "09:00:00"
+        }],
+        "notAvailableTime" : [{
+          "description" : "Public holidays"
+        }]
+      }
+    }],
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "(+1) 555-555-5555"
+    },
+    {
+      "system" : "fax",
+      "value" : "(+1) 123-456-7890"
+    },
+    {
+      "system" : "email",
+      "value" : "rd@HL7.org"
+    }],
+    "address" : {
+      "line" : ["3300 Washtenaw Avenue, Suite 227"],
+      "city" : "Ann Arbor",
+      "state" : "MI",
+      "postalCode" : "48104",
+      "country" : "USA"
+    }
+  }],
+  "endpoint" : [{
+    "reference" : "Endpoint/example"
+  }]
+}
